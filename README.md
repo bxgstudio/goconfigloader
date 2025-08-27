@@ -22,7 +22,7 @@ Manage following types of env vars:
 
 # Installation
 
-go get github.com/bxgstudio/appconfigloader@1.0.0
+go get github.com/bxgstudio/goconfigloader@1.0.0
 
 # Mecanism
 
@@ -48,7 +48,7 @@ Example below:
 package main
 
 import (
-    "gitlab.com/gck-prod/configloader/loader"
+    "github.com/bxgstudio/goconfigloader/loader"
 )
 
 type AppConfig struct {
